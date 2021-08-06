@@ -18,10 +18,6 @@ pipeline {
                 bat "mvn test -f TicketBookingServiceJunitTesting"
             }
         }
-        stage('package') {
-            steps {
-                bat "mvn package -f TicketBookingServiceJunitTesting"
-            }
-        }
+        
     }
 }
